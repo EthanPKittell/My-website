@@ -28,8 +28,8 @@
 
 .mainContent {
     width:100%;
-    height: 1000px;
-    background-color:rgb(66, 65, 65);
+    height: 1400px;
+    background-image:linear-gradient(to bottom right, rgb(66, 65, 65),rgb(18, 17, 17));
 }
 
 /*github content css */
@@ -72,11 +72,12 @@
 
 .projectsTitle {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     margin: auto;
     text-align: center;
     width: 60%;
     color: gray;
+
     
 }
 
@@ -93,12 +94,13 @@
     text-align: center;
     /*border: 1px solid black;*/
     width: 350px;
-    height: 450px;
+    height: 590px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 8px;
     background-color: rgb(154, 150, 150);
     border-radius: 20px;
+    
 }
 
 .ProjectTitle {
@@ -108,14 +110,78 @@
 .NBodyPNG {
     height: 200px;
     width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .DecodePNG {
     height: 200px;
-    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .DiningHallPNG {
     height: 200px;
-    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
+
+.ProjectDescription {
+    font-weight: bold;
+    display: inline-block;
+    height: auto;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+    .projectContainer {
+        text-align: center;
+        /*border: 1px solid black;*/
+        width: 350px;
+        height: max-content;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 8px;
+        background-color: rgb(154, 150, 150);
+        border-radius: 20px;
+        
+    }
+
+    .projectsTitle {
+        padding-top: 50px;
+        margin-bottom: 100px;
+        padding-bottom:50px;
+        margin: auto;
+        text-align: center;
+        width: 60%;
+        color: gray;
+    
+        
+    }
+
+
+    .NBodyPNG {
+        height: 200px;
+        width: 70%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .DecodePNG {
+        height: 200px;
+        width: 95%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .DiningHallPNG {
+        height: 200px;
+        width: 95%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+  }
