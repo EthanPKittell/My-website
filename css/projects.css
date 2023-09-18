@@ -62,7 +62,7 @@
     border: 0.4mm solid white;
     height: 50px;
     width: 50px;
-    background-image: url("gitHubIcon.png");
+    background-image: url("../img/gitHubIcon.png");
     background-size: 100%;
     filter: brightness(0) invert(1);
     
