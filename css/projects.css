@@ -185,6 +185,12 @@
 /*container flex css*/
 
 @media (max-width: 950px) {
+    .mainContent {
+        width:100%;
+        height: max-content;
+        background-image:linear-gradient(to bottom right, rgb(66, 65, 65),rgb(18, 17, 17));
+    }
+
     .projectContainer {
         text-align: center;
         /*border: 1px solid black;*/
@@ -261,5 +267,42 @@
         width: 95%;
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .projectContainerList{
+    
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .projectContainer {
+        text-align: center;
+        /*border: 1px solid black;*/
+        width: 90%;
+        height: max-content;
+        margin-top: 10px;
+        padding: 8px;
+        background-color: rgb(154, 150, 150);
+        border-radius: 20px;
+        margin-bottom: 50px;
+        
+    }
+
+    .GameContainer {
+        text-align: center;
+        /*border: 1px solid black;*/
+        width: 90%;
+        height: max-content;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 8px;
+        background-color: rgb(154, 150, 150);
+        border-radius: 20px;
+        
+        
     }
   }

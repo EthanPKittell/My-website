@@ -222,3 +222,32 @@ margin: auto;
     opacity: 1;
 }
     
+@media (max-width: 550px) {
+    .me{
+        width: 100%;
+        height: 350px;
+    }
+    .SkillsList {
+        /*border: 1px solid black;*/
+        display: inline-block;
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+    }
+    .SkillLists{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .SkillsListContainer {
+        text-align: center;
+        /*border: 1px solid black;*/
+        width: 300px;
+        height: 250px;
+        margin-top: 10px;
+        padding: 8px;
+        background-color: rgb(228, 227, 227);
+        border-radius: 20px;
+    }
+
+}

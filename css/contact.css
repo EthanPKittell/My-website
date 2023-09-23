@@ -56,3 +56,17 @@
     color: white;
     
 }
+
+@media (max-width: 550px) {
+    .mainContent {
+        width:100%;
+        height: fit-content;
+        background-image:linear-gradient(to bottom right, rgb(66, 65, 65),rgb(18, 17, 17));
+    }
+
+    .ContactContent {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        overflow-wrap: break-word;
+    }
+}
